@@ -20,7 +20,7 @@
             return {
                 cellStyleOption: {
                     headerCellClass: ({ column, rowIndex }) => {
-                        if (rowIndex === 0) {
+                        if (rowIndex === 0 && column === 0) {
                             return "table-header-cell-class";
                         }
                     },
